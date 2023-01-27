@@ -1,6 +1,6 @@
 # ec2inVPS
 
-In this lav I will create a Virtual Private Cloud (VPC), subnets across multiple AZ's, routes and an internet gateway.
+In this lab I will create a Virtual Private Cloud (VPC), subnets across multiple AZ's, routes and an internet gateway.
 
 Architecture looks like:
 
@@ -27,3 +27,9 @@ Select subnets on the left side then create subnet
 The rest configuration:
 
 ![alt text](/assets/vpc4.png)
+
+Subnet still is not public, it must route traffic via an internet gateway.
+
+We are here in the architecture
+
+![alt text](/assets/arch1.webp)
